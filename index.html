@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="icon" href="Images/Logo.svg" type="image/svg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <img src="Images/Logo.svg" alt="Logo" class="logo">
+        <a href="contactus.html" style="margin-top: 25px;">Contact Us</a>
+        <a href="#" style="margin-top: 25px;">Cruises</a>
+        <a href="rediscoverSingapore.html" style="margin-top: 25px;">Rediscover Singapore</a>
+        <div class="dropdown" style="float: right;margin-top: 25px;">
+            <button class="dropbtn">Package Tour
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Jakarta</a>
+                <a href="#">Sri Lanka</a>
+                <a href="#">London</a>
+            </div>
+        </div>
+        <a href="index.html" class="active" style="margin-top: 25px;">Home</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+    <div class="container">
+        <video autoplay muted loop style="width: 1250px;">
+            <source src="Video/video (1080p).mp4">
+        </video>
+        <div class="content">
+            <h1 style="font-size: 100px;">Welcome to Tourism</h1>
+            <h2 style="font-size: 40px;">What are you waiting for? Quickly check on the various place to plan your
+                vacation!</h2>
+        </div>
+    </div>
+	
+	<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <img src="Images/aiwhoosh281023.webp" alt="" width="300px" class="imgArticle">
+    <p>Proposed bullet train linking Jakarta to Surabaya could boost tourism, economy in south Java</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <img src="Images/LYNXMPEJ9N0D7-1.webp" alt="" width="300px" class="imgArticle">
+    <p>Sri Lanka approves free tourist visa for seven countries to boost tourism</p>
+  </div>
+		  <div class="column" style="background-color:#bbb;">
+    <img src="Images/IMG3249.webp" alt="" width="300px" class="imgArticle">
+    <p>Marina Bay Sands Q3 revenue jumps 34.3% to $1.37 billion as tourism recovers</p>
+  </div>
+</div>
+
+<!--
+    <div class="flex-container" style="height: 600px;">
+        <div class="eacharticle">
+            <article class="article">
+                <img src="Images/aiwhoosh281023.webp" alt="" width="300px" class="imgArticle">
+                <p>Proposed bullet train linking Jakarta to Surabaya could boost tourism, economy in south Java</p>
+                <a href="https://www.straitstimes.com/asia/se-asia/proposed-bullet-train-linking-jakarta-to-surabaya-could-boost-tourism-economy-in-south-java"
+                    target="_blank">
+                    <button class="BtnArticle">Whole Article</button>
+                </a>
+            </article>
+		</div>
+        <div class="eacharticle">
+            <article class="article">
+                <img src="Images/LYNXMPEJ9N0D7-1.webp" alt="" width="300px" class="imgArticle">
+                <p>Sri Lanka approves free tourist visa for seven countries to boost tourism</p>
+                <a href="https://www.straitstimes.com/asia/sri-lanka-approves-free-tourist-visa-for-seven-countries-to-boost-tourism"
+                    target="_blank">
+                    <button class="BtnArticle" style="margin-top: 75px;">Whole Article</button>
+                </a>
+            </article>
+        </div>
+        <div class="eacharticle">
+            <article class="article">
+                <img src="Images/IMG3249.webp" alt="" width="300px" class="imgArticle">
+                <p>Marina Bay Sands Q3 revenue jumps 34.3% to $1.37 billion as tourism recovers</p>
+                <a href="https://www.straitstimes.com/business/marina-bay-sands-q3-revenue-jumps-343-to-137-billion-as-tourism-recovers"
+                    target="_blank">
+                    <button class="BtnArticle" style="margin-top: 40px;">Whole Article</button>
+                </a>
+            </article>
+        </div>
+    </div>
+-->
+
+    <footer style="text-align: center;">Copyright&copy;VanessaYoung 2023</footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

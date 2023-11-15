@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <img src="Images/Logo.svg" alt="Logo" style="width: 100px; height: 100px;">
+    <a href="contactus.html" style="margin-top: 25px;" class="active">Contact Us</a>
+    <a href="#" style="margin-top: 25px;">Cruises</a>
+    <a href="rediscoverSingapore.html" style="margin-top: 25px;">Rediscover Singapore</a>
+    <div class="dropdown" style="float: right;margin-top: 25px;">
+        <button class="dropbtn">Package Tour 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Jakarta</a>
+          <a href="#">Sri Lanka</a>
+          <a href="#">London</a>
+        </div>
+</div>
+  <a href="index.html" style="margin-top: 25px;">Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <div class="contactcontainer">
+      <div style="text-align:center">
+        <h3>Drop us a message so that we know your queries/feedback</h3>
+      </div>
+      <div class="contactrow">
+        <div class="contactcolumn">
+          <img src="Images/map.jpg" alt="" style="width: 100%;">
+        </div>
+        <div class="contactcolumn" style="width: 100%;">
+          <form>
+            <label for="fname">Fullname</label>
+            <input type="text" id="fname" placeholder="Your full name..">
+            <label for="lname">Email Address</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your email..">
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="australia">Jakarta</option>
+              <option value="canada">Sri Lanka</option>
+              <option value="usa">London</option>
+            </select>
+            <label for="subject">Message</label>
+            <textarea id="subject" placeholder="Your Message.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+  </script>
+
+</body>
+</html>
